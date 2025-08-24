@@ -13,38 +13,38 @@ MonoBehaviour:
   m_Name: FruitProgression
   m_EditorClassIdentifier: Assembly-CSharp::FruitProgressionSO
   fruitLevels:
-  - name: 0
+  - name: 1
     prefab: {fileID: 7082917105194159826, guid: 39a2406d6ebd4b747a10849df6e93e69, type: 3}
     scoreValue: 0
     debugColor: {r: 1, g: 1, b: 1, a: 1}
     spawnWeight: 1
-  - name: 1
+  - name: 2
     prefab: {fileID: 7042516518986048271, guid: a7248d8ac186a13439e150dc6a61d1a0, type: 3}
     scoreValue: 0
     debugColor: {r: 1, g: 1, b: 1, a: 1}
     spawnWeight: 1
-  - name: 2
+  - name: 3
     prefab: {fileID: 7042516518986048271, guid: 9deef1711a927574293c13f5c7fea29d, type: 3}
     scoreValue: 0
     debugColor: {r: 1, g: 1, b: 1, a: 1}
     spawnWeight: 1
-  - name: 3
+  - name: 4
     prefab: {fileID: 7042516518986048271, guid: ebc463df9225dff4e9a3951c64d0cc4b, type: 3}
     scoreValue: 0
     debugColor: {r: 1, g: 1, b: 1, a: 1}
     spawnWeight: 1
-  - name: 4
-    prefab: {fileID: 7042516518986048271, guid: 24bdae05cd6afbd4394721690f518912, type: 3}
-    scoreValue: 0
-    debugColor: {r: 1, g: 1, b: 1, a: 1}
-    spawnWeight: 1
   - name: 5
-    prefab: {fileID: 7042516518986048271, guid: 8b4837cd51ed11a44889205e1490168c, type: 3}
+    prefab: {fileID: 7042516518986048271, guid: 24bdae05cd6afbd4394721690f518912, type: 3}
     scoreValue: 0
     debugColor: {r: 1, g: 1, b: 1, a: 1}
     spawnWeight: 1
   - name: 6
     prefab: {fileID: 7042516518986048271, guid: 8b4837cd51ed11a44889205e1490168c, type: 3}
+    scoreValue: 0
+    debugColor: {r: 1, g: 1, b: 1, a: 1}
+    spawnWeight: 1
+  - name: 
+    prefab: {fileID: 0}
     scoreValue: 0
     debugColor: {r: 1, g: 1, b: 1, a: 1}
     spawnWeight: 1
