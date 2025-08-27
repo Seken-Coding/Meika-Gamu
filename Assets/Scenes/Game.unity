@@ -712,6 +712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1174677864}
   - component: {fileID: 1174677863}
+  - component: {fileID: 1174677865}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -726,7 +727,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174677862}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b85a45887363f794cb31faa30d7c71a9, type: 3}
   m_Name: 
@@ -757,6 +758,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1174677865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174677862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 269a5bdfa801ab243ac3734513938a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitProgression: {fileID: 11400000, guid: 465e48bc68002164ab1366075caf8572, type: 2}
+  spawnPoint: {fileID: 229149286}
+  gameOverLine: {fileID: 1465181823}
+  dropCooldown: 1
+  containerWidth: 8
+  gameOverGraceTime: 3
+  scoreText: {fileID: 0}
+  nextFruitText: {fileID: 0}
+  highScoreText: {fileID: 0}
+  finalScoreText: {fileID: 0}
+  nextFruitPreview: {fileID: 0}
+  restartButton: {fileID: 0}
+  pauseButton: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  pausePanel: {fileID: 0}
 --- !u!1 &1313210482
 GameObject:
   m_ObjectHideFlags: 0
